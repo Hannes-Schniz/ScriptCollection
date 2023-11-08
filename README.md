@@ -2,7 +2,7 @@
 A collection of different (bash,shell, python) scripts.
 
 # Folder Structure
-+ Linux
+* Linux
 | + {General purpose}
 | | + shell
 | | + bash
@@ -13,4 +13,4 @@ A collection of different (bash,shell, python) scripts.
 | | | + bash
 | | | + phyton
 | - -
-+ Windows
+* Windows
