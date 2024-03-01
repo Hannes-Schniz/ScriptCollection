@@ -137,6 +137,8 @@ OLDIFS=$IFS
     IFS=$OLDIFS
 ```
 
+This methode will remove windows line ending
+
 ```
 dos2unix -q $file
 ```
