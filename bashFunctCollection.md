@@ -34,6 +34,8 @@ create_File() {
 }
 ```
 
+---
+
 ### User input
 
 This function will let the user input information, it allows a validation regex to be passed to validate the user input
@@ -67,6 +69,8 @@ get_Input()
 }
 ```
 
+---
+
 ### Output
 
 This methode will let you draw a border around a one line long string.
@@ -93,6 +97,8 @@ cat <<'EOF' >>/tmp/tmpScript.sh
 EOF
 ```
 
+---
+
 ### Cutting Strings
 
 This Methode will allow you to cut a string in two parts and selects one of these parts. It uses a delimiter to cut the two Strings.
@@ -101,13 +107,13 @@ This Methode will allow you to cut a string in two parts and selects one of thes
 $(echo "$string" | /bin/cut -d',' -f2)
 ```
 
----
-
 This methode will cut a string by a delimiter into elements bound by the gifen delimiter.
 
 ```
 IFS=',' read -ra array <<<"$string"
 ```
+
+---
 
 ### Padding strings
 
@@ -118,8 +124,6 @@ $(printf '%-6s' $string)
 ```
 
 ---
-
-This methode will add a amount of spaces
 
 ### File operations
 
